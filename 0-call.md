@@ -24,7 +24,7 @@ We welcome the submissions of original and high-quality papers including (but no
 ## Important dates
 
 * Regular Paper and Extended abstract submission deadline: <del><strong>24th June 2026</strong> (11:59 PM CET)</del> <strong>5th July 2026 (AoE)</strong>
-* Decision to Authors: <del>**24th July 2026**</del> (11:59 PM CET) <del>**1st August 2026** (11:59 PM CET)
+* Decision to Authors: <del>**24th July 2026**</del> (11:59 PM CET) **1st August 2026** (11:59 PM CET)
 * Camera-ready papers due: <del>**3th August 2026**</del> (11:59 PM CET) **8th August 2026** (11:59 PM CET)
 
 ## Submission portal
