@@ -62,3 +62,115 @@ background:var(--ws-zebra);font-size:.8125rem;color:var(--ws-soft)}
 <span><i style="background:#cfcfca"></i>Break</span>
 </div>
 </section>
+
+<style>
+.ws-papers{--ws-line:#e3e3df;--ws-soft:#5f5f5a;--ws-faint:#8a8a84;--ws-accent:#1b5e7e;
+max-width:720px;margin:2rem 0;color:#1a1a18;
+font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif;
+font-size:16px;line-height:1.5;-webkit-font-smoothing:antialiased}
+.ws-papers__group{margin:0 0 2.5rem}
+.ws-papers__group:last-child{margin-bottom:0}
+.ws-papers__h{display:flex;align-items:baseline;gap:.6rem;margin:0 0 .25rem;
+padding-bottom:.5rem;border-bottom:2px solid var(--ws-accent)}
+.ws-papers__h h2{margin:0;font-size:1.15rem;font-weight:600;letter-spacing:-.01em}
+.ws-papers__count{font-size:.8125rem;color:var(--ws-faint);font-variant-numeric:tabular-nums}
+.ws-papers__tag{font-size:.8125rem;font-weight:400;color:var(--ws-faint);letter-spacing:0}
+.ws-papers__list{margin:0;padding:0;list-style:none;counter-reset:ws-p}
+.ws-paper{counter-increment:ws-p;display:grid;grid-template-columns:1.9rem minmax(0,1fr);
+gap:.7rem;padding:.95rem 0;border-bottom:1px solid var(--ws-line)}
+.ws-paper:before{content:counter(ws-p) ".";color:var(--ws-faint);font-size:.9375rem;
+font-variant-numeric:tabular-nums;padding-top:.1rem}
+.ws-paper__title{margin:0;font-size:1rem;font-weight:600;line-height:1.35}
+.ws-paper__authors{margin:.35rem 0 0;font-size:.9375rem;color:var(--ws-soft)}
+.ws-paper__authors sup{font-size:.7em;color:var(--ws-faint);padding-left:1px}
+.ws-paper__affil{margin:.3rem 0 0;font-size:.8125rem;color:var(--ws-faint);line-height:1.5}
+.ws-paper__affil sup{padding-right:1px}
+@media(max-width:560px){
+.ws-paper{grid-template-columns:1.45rem;gap:.5rem;grid-template-areas:"n" "b"}
+.ws-paper:before{grid-area:n}
+.ws-paper__body{grid-area:b}}
+</style>
+
+<div class="ws-papers">
+
+<section class="ws-papers__group">
+<div class="ws-papers__h"><h2>Accepted regular papers</h2><span class="ws-papers__count">5</span></div>
+<ol class="ws-papers__list">
+
+<li class="ws-paper"><div class="ws-paper__body">
+<h3 class="ws-paper__title">A Compositional Analysis of Cross-Lingual Math Reasoning in Efficient Vision-Language Models</h3>
+<p class="ws-paper__authors">Kerem Tuzel<sup>1</sup>, Ozan Bayiz<sup>2</sup></p>
+<p class="ws-paper__affil"><sup>1</sup>Fremont Union High School District &nbsp;·&nbsp; <sup>2</sup>University of California, Berkeley</p>
+</div></li>
+
+<li class="ws-paper"><div class="ws-paper__body">
+<h3 class="ws-paper__title">A Synonym Away from Failure: Measuring and Mitigating Word-Choice Sensitivity in Promptable Concept Segmentation</h3>
+<p class="ws-paper__authors">Stefano Samele, Michele Cavicchioli, Nico Catalano, Matteo Matteucci</p>
+<p class="ws-paper__affil">Politecnico di Milano</p>
+</div></li>
+
+<li class="ws-paper"><div class="ws-paper__body">
+<h3 class="ws-paper__title">Debiasing Text-to-Image Evaluation via Implicit Cultural Alignment Reward Modeling</h3>
+<p class="ws-paper__authors">Boan Chang<sup>1</sup>, Yu-Chih Chen<sup>2</sup></p>
+<p class="ws-paper__affil"><sup>1</sup>National Tsing Hua University &nbsp;·&nbsp; <sup>2</sup>National Yang Ming Chiao Tung University</p>
+</div></li>
+
+<li class="ws-paper"><div class="ws-paper__body">
+<h3 class="ws-paper__title">Fine-Grained Bias Manipulation of Text-to-Image Models via Counterfactual Data Synthesis</h3>
+<p class="ws-paper__authors">Takuto Onikubo<sup>1</sup>, Xin Zhang<sup>2</sup>, Joey Tianyi Zhou<sup>3</sup>, Shin'ichi Satoh<sup>4</sup></p>
+<p class="ws-paper__affil"><sup>1</sup>The University of Tokyo &nbsp;·&nbsp; <sup>2</sup>A*STAR &nbsp;·&nbsp; <sup>3</sup>Singapore Management University; A*STAR Centre for Frontier AI Research &nbsp;·&nbsp; <sup>4</sup>National Institute of Informatics</p>
+</div></li>
+
+<li class="ws-paper"><div class="ws-paper__body">
+<h3 class="ws-paper__title">Localizing to Debias: A Patch-Level Benchmark and Baseline for Weakly Supervised Spatial Anomaly Detection</h3>
+<p class="ws-paper__authors">Sara Abdulaziz, Abdulrahman Al-Abri, Giacomo D'Amicantonio, Egor Bondarev</p>
+<p class="ws-paper__affil">Eindhoven University of Technology</p>
+</div></li>
+
+</ol>
+</section>
+
+<section class="ws-papers__group">
+<div class="ws-papers__h"><h2>Accepted extended abstracts <span class="ws-papers__tag">non-archival</span></h2><span class="ws-papers__count">6</span></div>
+<ol class="ws-papers__list">
+
+<li class="ws-paper"><div class="ws-paper__body">
+<h3 class="ws-paper__title">CFM: Language-aligned Concept Foundation Model for Vision</h3>
+<p class="ws-paper__authors">Kai Wittenmayer, Sukrut Rao, Amin Parchami-Araghi, Bernt Schiele</p>
+<p class="ws-paper__affil">Max Planck Institute for Informatics, Saarland Informatics Campus</p>
+</div></li>
+
+<li class="ws-paper"><div class="ws-paper__body">
+<h3 class="ws-paper__title">Do Vision-Language Models See or Remember? Probability-Level Evidence of Prior Bias on Counterfactual Images</h3>
+<p class="ws-paper__authors">Rabia Abu Sufian, Ayat Khudoir, Stella Graßhof, Luca Rossi</p>
+<p class="ws-paper__affil">IT University of Copenhagen</p>
+</div></li>
+
+<li class="ws-paper"><div class="ws-paper__body">
+<h3 class="ws-paper__title">Feature Alignment for Scalable B-cosification of Foundational Vision Transformers</h3>
+<p class="ws-paper__authors">Raphael Maser<sup>1,2</sup>, Siddhartha Gairola<sup>1</sup>, Sukrut Rao<sup>1,2</sup>, Bernt Schiele<sup>1</sup></p>
+<p class="ws-paper__affil"><sup>1</sup>Max Planck Institute for Informatics, Saarland Informatics Campus &nbsp;·&nbsp; <sup>2</sup>Universität des Saarlandes</p>
+</div></li>
+
+<li class="ws-paper"><div class="ws-paper__body">
+<h3 class="ws-paper__title">Open Set Domain Adaptation Under Background Distribution Shift</h3>
+<p class="ws-paper__authors">Shravan S. Chaudhari<sup>1</sup>, Yoav Wald<sup>2</sup>, Suchi Saria<sup>1</sup></p>
+<p class="ws-paper__affil"><sup>1</sup>Johns Hopkins University &nbsp;·&nbsp; <sup>2</sup>Technion – Israel Institute of Technology; New York University</p>
+</div></li>
+
+<li class="ws-paper"><div class="ws-paper__body">
+<h3 class="ws-paper__title">Spectral Analysis of Intersectional Bias in Diffusion Models</h3>
+<p class="ws-paper__authors">Silpa Vadakkeeveetil Sreelatha<sup>1</sup>, Anisha Saha<sup>2</sup>, Muhammad Awais<sup>1</sup>, Anjan Dutta<sup>1</sup>, Serge Belongie<sup>3</sup>, Stella Frank<sup>4</sup>, Vésteinn Snæbjarnarson<sup>3</sup></p>
+<p class="ws-paper__affil"><sup>1</sup>University of Surrey &nbsp;·&nbsp; <sup>2</sup>Max Planck Institute for Informatics, Saarland Informatics Campus &nbsp;·&nbsp; <sup>3</sup>University of Copenhagen &nbsp;·&nbsp; <sup>4</sup>Technical University of Denmark</p>
+</div></li>
+
+<li class="ws-paper"><div class="ws-paper__body">
+<h3 class="ws-paper__title">Who Defines Fairness? Target-Based Prompting for Auditable Debiasing in Text-to-Image Generation</h3>
+<p class="ws-paper__authors">Marzia Binta Nizam, James Davis</p>
+<p class="ws-paper__affil">University of California, Santa Cruz</p>
+</div></li>
+
+</ol>
+</section>
+
+</div>
