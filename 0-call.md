@@ -24,18 +24,17 @@ We welcome the submissions of original and high-quality papers including (but no
 ## Important dates
 
 * Regular Paper and Extended abstract submission deadline: <del><strong>24th June 2026</strong> (11:59 PM CET)</del> <strong>5th July 2026 (AoE)</strong>
-* Decision to Authors: <del>**24th July 2026**</del> (11:59 PM CET) **1st August 2026** (11:59 PM CET)
-* Camera-ready papers due: <del>**3th August 2026**</del> (11:59 PM PST) **8th August 2026** (11:59 PM CET)
+* Decision to Authors: <del>**24th July 2026**</del> (11:59 PM CET) <del>**1st August 2026** (11:59 PM CET)
+* Camera-ready papers due: <del>**3th August 2026**</del> (11:59 PM CET) **8th August 2026** (11:59 PM CET)
 
 ## Submission portal
-
-* Submissions are currently open and handled via the OpenReview workshop submission [website](https://openreview.net/group?id=thecvf.com/ECCV/2026/Workshop/FAILED)
+* **Submissions are closed.** Submissions were handled via the OpenReview [submission portal](https://openreview.net/group?id=thecvf.com/ECCV/2026/Workshop/FAILED). The list of accepted papers and the workshop programme are available on the [Venue and Schedule](3-venue_and_schedule.html) page.
   
 ## Submission format
 
 We welcome submissions in two formats: regular papers and extended abstracts. 
 
-All submissions (both regular paper and extended abstract) will undergo peer review (double-blind) and the accepted submissions will be granted a poster presentation during the workshop. Selected papers will be invited for oral presentations. 
+All submissions (both regular paper and extended abstract) will undergo peer review (double-blind) and the accepted submissions will be granted a poster presentation during the workshop. 
 
 
 ### Regular Papers
