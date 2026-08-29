@@ -34,8 +34,6 @@ nav: true
 
 </div>
 
-## Technical Committee
-
 <style>
 .ws-tc{--ws-line:#e3e3df;--ws-soft:#5f5f5a;--ws-faint:#8a8a84;--ws-accent:#1b5e7e;
 max-width:720px;margin:2rem 0;color:#1a1a18;
