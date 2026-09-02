@@ -5,7 +5,7 @@ nav: true
 
 ## Keynote Speakers
 
-<div style="display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:24px; margin-top:24px;">
+<div style="display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:24px; margin-top:24px; align-items:start;">
 
   <!-- Elisa Ricci -->
   <div style="padding:22px; border:1px solid #e5e7eb; border-radius:20px; background:#fff; box-shadow:0 6px 18px rgba(0,0,0,0.08); text-align:center;">
