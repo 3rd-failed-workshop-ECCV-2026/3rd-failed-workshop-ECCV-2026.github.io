@@ -6,7 +6,9 @@ nav: true
 
 * 8th September, 2026 (8:30 am - 12:30 pm)
 
-* VENUE: Malmö, Sweden. 
+* VENUE: Malmö, Sweden.
+
+* ROOM: Quality View Hotel - Stroget 2
    
 <style>
 .ws-sched{--ws-line:#e3e3df;--ws-zebra:#f6f6f4;--ws-soft:#5f5f5a;--ws-faint:#8a8a84;
