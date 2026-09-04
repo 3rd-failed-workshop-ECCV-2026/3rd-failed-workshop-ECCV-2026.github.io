@@ -20,11 +20,11 @@ nav: false
   </div>
   <div style="padding:18px; border:1px solid #e5e7eb; border-radius:18px; background:#fff; box-shadow:0 4px 14px rgba(0,0,0,0.06);">
     <strong>Dates</strong><br>
-    8-9 September 2026
+    8 September 2026
   </div>
   <div style="padding:18px; border:1px solid #e5e7eb; border-radius:18px; background:#fff; box-shadow:0 4px 14px rgba(0,0,0,0.06);">
     <strong>Submission deadline</strong><br>
-    24 June 2026
+    <del>24 June 2026</del> — Submissions are closed. 
   </div>
 </div>
 
